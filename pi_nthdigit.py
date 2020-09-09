@@ -8,7 +8,7 @@ from math import pi
 while True:
     try:
         digit_no = int(input('Enter, how many digits of '
-            'should pi be printed: '))
+            'pi should be printed: '))
         break
     except ValueError:
         print('\nPlease enter a valid whole number!\n')
